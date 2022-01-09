@@ -4,7 +4,7 @@
 		<IO_Flow_Parameter_Set_Trace_Based>
 			<Priority_Class>HIGH</Priority_Class>
 			<Device_Level_Data_Caching_Mode>WRITE_CACHE</Device_Level_Data_Caching_Mode>
-			<Channel_IDs>0,1,2,3,4,5,6,7</Channel_IDs>
+			<Channel_IDs>0</Channel_IDs>
 			<Chip_IDs>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31</Chip_IDs>
 			<Die_IDs>0,1</Die_IDs>
 			<Plane_IDs>0,1</Plane_IDs>
