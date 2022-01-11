@@ -12,7 +12,7 @@
 		<Enabled_Preconditioning>false</Enabled_Preconditioning>
 		<Memory_Type>FLASH</Memory_Type>
 		<HostInterface_Type>NVME</HostInterface_Type>
-		<IO_Queue_Depth>65535</IO_Queue_Depth>
+		<IO_Queue_Depth>128</IO_Queue_Depth>
 		<Queue_Fetch_Size>512</Queue_Fetch_Size>
 		<Caching_Mechanism>ADVANCED</Caching_Mechanism>
 		<Data_Cache_Sharing_Mode>SHARED</Data_Cache_Sharing_Mode>
@@ -41,20 +41,20 @@
 		<Preferred_suspend_erase_time_for_read>700000</Preferred_suspend_erase_time_for_read>
 		<Preferred_suspend_erase_time_for_write>700000</Preferred_suspend_erase_time_for_write>
 		<Preferred_suspend_write_time_for_read>100000</Preferred_suspend_write_time_for_read>
-		<Flash_Channel_Count>1</Flash_Channel_Count>
+		<Flash_Channel_Count>8</Flash_Channel_Count>
 		<Flash_Channel_Width>1</Flash_Channel_Width>
 		<Channel_Transfer_Rate>1024</Channel_Transfer_Rate>
-		<Chip_No_Per_Channel>32</Chip_No_Per_Channel>
+		<Chip_No_Per_Channel>16</Chip_No_Per_Channel>
 		<Flash_Comm_Protocol>NVDDR2</Flash_Comm_Protocol>
 		<Flash_Parameter_Set>
 			<Flash_Technology>MLC</Flash_Technology>
 			<CMD_Suspension_Support>ERASE</CMD_Suspension_Support>
-			<Page_Read_Latency_LSB>50000</Page_Read_Latency_LSB>
-			<Page_Read_Latency_CSB>50000</Page_Read_Latency_CSB>
-			<Page_Read_Latency_MSB>50000</Page_Read_Latency_MSB>
-			<Page_Program_Latency_LSB>500000</Page_Program_Latency_LSB>
-			<Page_Program_Latency_CSB>500000</Page_Program_Latency_CSB>
-			<Page_Program_Latency_MSB>500000</Page_Program_Latency_MSB>
+			<Page_Read_Latency_LSB>30000</Page_Read_Latency_LSB>
+			<Page_Read_Latency_CSB>30000</Page_Read_Latency_CSB>
+			<Page_Read_Latency_MSB>30000</Page_Read_Latency_MSB>
+			<Page_Program_Latency_LSB>300000</Page_Program_Latency_LSB>
+			<Page_Program_Latency_CSB>300000</Page_Program_Latency_CSB>
+			<Page_Program_Latency_MSB>300000</Page_Program_Latency_MSB>
 			<Block_Erase_Latency>3800000</Block_Erase_Latency>
 			<Block_PE_Cycles_Limit>10000</Block_PE_Cycles_Limit>
 			<Suspend_Erase_Time>700000</Suspend_Erase_Time>
